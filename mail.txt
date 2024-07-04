@@ -14,3 +14,233 @@ Sincerely yours,
 
 Devanshu
 1220199
+
+
+
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Devanshu } \\ 
+    \vspace{1pt} Haryana, India \\ 
+    \vspace{1pt} \small\raisebox{-0.1\height}\faPhone\ +91 7015648676~
+    \href{mailto:devanshubhatnagar09@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{devanshubhatnagar09@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/devanshu-bhatnagar-456562226}{\raisebox{-0.2\height}\faLinkedin\ \underline{DevanshuBhatnagar}}  ~
+    \href{https://github.com/AryaDeepanshu}{\raisebox{-0.2\height}\faGithub\ \underline{\href{https://github.com/devanshud13}{devanshud13}}}
+    \vspace{-8pt}
+\end{center}
+
+
+% -----------Summary-----------
+% \section{Objective}
+%   {To be associated with an organization, that provides career development opportunities and to contribute to its progress through my knowledge and skills, and build a successful career in a challenging environment, for successful completion of the projects.}
+% \vspace{-8pt}
+% adjust vscape based on the space you want to leave between each section.
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Seth Jai Parkash Mukandlal Institute of Engineering \&\ Technology, Radaur}{July 2024}
+      {Bachelor of Technology in Computer Schience \&\ Engineering  (CGPA: 8.83)}{Haryana, India}
+    \resumeSubheading
+      {Maharana Pratap Public school}{April 2019 -- March 2020}
+      {CBSE, Class XII  (Percentage: 82.4)}{Haryana, India}
+      \resumeSubheading
+      {Maharana Pratap Public school}{April 2017 -- March 2018}
+      {CBSE, Class X (Percentage: 74.4)}{Haryana, India}
+  \resumeSubHeadingListEnd
+
+%-----------Technical Skilss-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.1in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C, C++ } \\
+     \textbf{Web Technologies \&\  Database}{: HTML, CSS, JavaScript, React.Js, NodeJS,  ExpressJS,  MongoDB  } \\
+ \textbf{Core Subjects}{: DBMS, OOP, Operating System, Computer Networking, Data Structure and Algorithm }\\ 
+     \textbf{Software \& Tools}{: VS Code, Git,Azure}\\
+     }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Internship \&\ Training Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {CodeQuotient}{July 2023 -- Aug 2023}
+      {Full Stack Web Developer Intern}{}
+      \resumeItemListStart
+        \resumeItem {Worked with NodeJs, ExpressJS, EJS, MongoDB.}
+        \resumeItem {Built To-do App and Ecommerce projects.}
+%Based on the number of point you want to add add the "\resumeItem" for each point you want to add.
+    \resumeItemListEnd
+ \resumeSubheading
+      {Omninos Technologies International Private Limited}{July 2022 -- August 2022}
+      {Front End Web Developer Intern}{}
+      \resumeItemListStart
+        \resumeItem{Acquired hands-on experience in working with APIs and integrating
+external services}
+        \resumeItem{Proactively learned new technologies and frameworks to stay updated
+with the latest industry trends}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-8pt}
+% adjust vscape based on the space you want to leave between each section.
+
+
+%-----------PROJECTS-----------
+\section{Project Work}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{Outfitters} $|$
+          {\href{http://outfitterss.azurewebsites.net}{Live}} $|$ {\href{https://github.com/devanshud13/outfitters}{Github}}}  
+          
+          \resumeItemListStart
+              \resumeItem{Developed responsive Ecommerce web app.}
+              \resumeItem{Devised \textbf{authentication} system with proper \textbf{validations} and \textbf{password pattern matching}.}
+              \resumeItem{Has \textbf{email verification} for \textbf{sign up, reset and change password} .}
+              \resumeItem{Tech: \textbf{Node.JS $|$ Express.JS $|$ MongoDB }}
+          \resumeItemListEnd
+          \vspace{-13pt}
+\resumeProjectHeading
+   {\textbf{Kurukshetra Darshan} $|$ \href{https://kurukshetradarshan.azurewebsites.net}{Live} $|$ \href{https://github.com/devanshud13/kurukshetradarshan}{Github}}
+   
+\resumeItemListStart
+    \resumeItem {A website facilitating Booking accommodations}
+    \resumeItem{Integrated User Authentication and Validation}
+    \resumeItem{Tech: \textbf{Node.JS $|$ Express.JS $|$ MongoDB }}
+\resumeItemListEnd
+          \vspace{-13pt}
+          \resumeProjectHeading
+   {\textbf{Taskely} $|$ \href{https://taskely.azurewebsites.net}{Live} $|$ \href{https://github.com/devanshud13/Todos}{Github}}
+   
+\resumeItemListStart
+    \resumeItem { Utilized a database system MongoDB to store and retrieve task data, ensuring data persistence}
+    \resumeItem{Ensured the website is fully responsive, providing a seamless experience across various devices}
+   \resumeItem{Implemented secure user authentication to protect user data and provide a personalized experience}
+    \resumeItem{Tech: \textbf{Node.JS $|$ Express.JS $|$ MongoDB }.}
+\resumeItemListEnd
+          \vspace{-13pt}
+          
+    \resumeProjectHeading
+          {\textbf{Text Analyzer} $|$ {\href{https://devanshud13.github.io/Text_analyz/}{Live}} $|${\href{https://github.com/devanshud13/Text_analyz}{Github}}}
+          
+          \resumeItemListStart
+            \resumeItem{A React App For Styling your text}
+              \resumeItem{Developed the app to work seamlessly across desktop and mobile platforms for broad user accessibility
+}
+              \resumeItem{Tech: \textbf{Javascript} $|$ \textbf{React.Js}}
+          \resumeItemListEnd
+        \vspace{-13pt}
+    \resumeSubHeadingListEnd
+\vspace{-3pt}
+\end{document}
